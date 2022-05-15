@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgs{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 200px;
+    right: 700px;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+
+}
+
+.logo {
+    width: 60%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 30%;
+    text-align: right;
+
+}
+
+.menu {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+
+}
+
+.selection.sobre {
+    height: calc(100%-200px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #007db8;
+}
+
+#imgf2 {
+    position: relative;
+    top: 80px;
+    left: 20px;
+    right: 100px;
+
+}
+
+.socialmedia {
+    position: absolute;
+    right: 20px;
+    top: 150px;
+    left: 430px;
+}
+
+.socialmedia {
+    margin: 30px 0;
+    width: 20px;
+}
+
+.imagemf4 {
+    transition: all 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: -80;
+}
+
+.imagemf4:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+}
+
+
+.imagemf5 {
+    transition: all 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 80;
+}
+
+.imagemf5:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.textosobre h1 {
+    margin-top: 100px;
+}
+
+.textosobre botão {
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.imgf6 {
+    transition: all 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: 50;
+    left: 550px;
+   
+}
+
+.imgf6:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+
